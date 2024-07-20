@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+    align-items: center;
+    background-color: #908282;
+}
+.outer{
+    display: flex;
+    width: 70vw;
+    background-color: #eee1e1;  
+    /* height: ; */
+    padding: 16px;
+    box-shadow: 4px 4px 5px rgb(106, 74, 74);
+    margin-top: 8%;
+    border-radius: 6px;
+    
+}
+.col1{
+    width: 50%;
+}
+.col2{
+    width: 50%;
+    /* display: flex; */
+    gap: 12px;
+    padding-bottom: 12px;
+    margin-left: 20px;
+}
+.image{
+    background-image: url(./pexels-andrew-3178786.jpg);
+    /* height: 33px; */
+    color: aliceblue;
+    text-transform: capitalize;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.image h1{
+    width: 40%;
+    margin-left: 10%;
+    word-spacing: 7px;
+    letter-spacing: ;
+    font-size:300%;
+    font-weight: 500;
+}
+
+
+.formgrop{
+    display: flex;
+    margin-top: 12px;
+    /* gap: 14px; */
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+    font-size: 120%;
+    font-weight: bolder;
+}
+.the{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: medium;
+    font-weight: 300;
+}
+.formgrop input{
+    padding: 10px;
+    /* border-radius: 10%; */
+    border: none;
+    border-bottom: 2px solid rgb(101, 101, 167);
+    /* box-shadow: 0 2px red; */
+    background-color: #eee1e1;
+}
+#button{
+  background-color: #021301;
+  color: #cbb6b6;
+  font-size: larger;
+  font-weight: bold;
+  letter-spacing: 3px;
+  /* visibility: none; */
+}
+.header p{
+    margin-top: 3%;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    width: 60%;  
+}
+.header h1{
+    letter-spacing: 2px;
+}
+.footer{
+    margin-top: 12%;
+}
+@media (width <= 650px) {
+    .outer{
+        /* position: relative; */
+    }
+    .col1{
+        /* visibility: collapse; */
+        width: 0%;
+    }
+    .col2{
+        width: 100%;
+
+    }
+    
+}
